@@ -1,0 +1,15 @@
+updateBEST(){
+string oldTime=SELECT time LIMIT 1 FROM timespage WHERE player_id='player'
+               AND lev_diff='lev,diff' ORDERBY lev_diff ASC;
+
+insert new time
+
+if (newTime<oldTime){
+change 
+
+same for record_times
+
+if (player.lev_diff.time<record_time.lev_diff.time){
+change}
+else if (...==...){
+INSERT into record_times ...
